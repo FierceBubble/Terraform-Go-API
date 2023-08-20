@@ -38,6 +38,7 @@ terraform.rc
 *.hcl
 
 # Ignore local files
+*.env
 */locals.tf
 **/.DS_Store
 
@@ -51,7 +52,6 @@ terraform.rc
 *.dll
 *.so
 *.dylib
-*.sum
 
 # Test binary, built with `go test -c`
 *.test

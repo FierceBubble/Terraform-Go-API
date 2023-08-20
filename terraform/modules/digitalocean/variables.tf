@@ -1,5 +1,5 @@
 # - - -- - Digital Ocean Variables - - - - - #
-variable "digitalocean_token" {
+variable "DIGITALOCEAN_TOKEN" {
   sensitive = true
 }
 variable "digitalocean_ssh_key" {}

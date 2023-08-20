@@ -1,6 +1,6 @@
 # - - -- - UpCloud Variables - - - - - #
-variable "upcloud_username" {}
-variable "upcloud_password" {
+variable "UPCLOUD_USERNAME" {}
+variable "UPCLOUD_PASSWORD" {
   sensitive = true
 }
 

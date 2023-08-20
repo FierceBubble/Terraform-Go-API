@@ -1,20 +1,4 @@
-terraform {
-  required_version = ">= 0.13.0"
-  required_providers {
-    upcloud = {
-      source  = "UpCloudLtd/upcloud"
-      version = ">= 2.12.0"
-    }
-  }
-}
-
-
-provider "upcloud" {
-  username  = var.upcloud_username
-  password  = var.upcloud_password
-  retry_max = 3
-}
-
+# - - - - - #
 resource "upcloud_server" "upcloud_vm" {
   hostname = var.upcloud_server_hostname
   zone     = var.upcloud_server_zone
